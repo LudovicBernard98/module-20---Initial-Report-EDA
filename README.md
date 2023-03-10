@@ -19,6 +19,8 @@ The startup world requires a lot of decision making from the people involved, sp
 
 This project proposes a serie of supervised learning models that can forecast a startup success as well as a better understanding of the variables that most impact the acquisition or failure of a startup company. **Different supervised algorithms will be tested in order to compare our results and better understand the variables that most impact the outcome.**
 
+You can access my Notebook [Here](https://github.com/LudovicBernard98/module-20---Initial-Report-EDA/blob/main/Notebook1--Data_Exploration.ipynb).
+
 ### Performance Metrics
 To evaluate the validity of each model we will use the True Positive Rate, False Positive Rate and the Area under the ROC Curve (AUC_ROC). True Positive rate and False Positive rates will derived from the confusion matrix of our classifiers. Since we expect the dataset to be imbalanced such metric wil be much more useful than accuracy. We expect the number of companies that are acquired will be much smaller than those in operation or closed. If we were to use accuracy, our models would probably have a high score even though their will be performing poorly of retrieving the few companies that are more likely to be acquired.  
 
