@@ -28,6 +28,8 @@ The ROC curve combines TPR(y-axis) and FPR (x-axis). In general, the AUC is a go
 
 ### Summary of the Results
 
+Although all models have a similar roc_auc score, the highest score was from the AdaBoost Model with 0.810. Logistic Regression has the lowest score with 0.796. 
+
 Preliminary results show the following:
 **Decision Tree Based Classifiers**
 - Classifier "AdaBoost" and "Random Forest" are models using regression trees. Using such models, it is normal to see the importance of One Hot Encoded variables to be lower since the decision tree decision takes weights each variable for the decision to the rest of the dataset hence a lower strength since it mostly applies to a small subset of the data. Furthermore, it is very interesting to see that in the One Hot Encoded Variables in these models the feature has_VC is the most important feature of this class.
